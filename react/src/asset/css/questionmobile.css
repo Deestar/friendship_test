@@ -1,0 +1,138 @@
+main.questionmobile {
+  /* border: var(--border3); */
+  height: var(--height_web);
+  display: grid;
+  grid-template-rows: 12% 60% 1fr;
+  background-color: rgb(72, 118, 204);
+  overflow-y: auto;
+  row-gap: 3%;
+  overflow-x: hidden;
+  position: relative;
+}
+main.questionmobile header {
+  /* border: var(--border); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px;
+  max-width: 100vw;
+}
+main.questionmobile header button {
+  border: 3px solid rgb(127, 141, 199);
+  background-color: transparent;
+  width: clamp(65px, 22%, 85px);
+  height: clamp(38px, 52%, 50px);
+  border-radius: 5px;
+}
+main.questionmobile header button h4 {
+  color: white;
+  font-family: var(--h);
+  font-size: clamp(14px, 4.5vw, 17.5px);
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+main.questionmobile header img {
+  height: clamp(44px, 75%, 95%);
+}
+main.questionmobile header div.q_no {
+  /* border: var(--border); */
+  height: clamp(40px, 7vh, 58px);
+  width: clamp(40px, 7vh, 58px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  justify-content: center;
+}
+main.questionmobile header div.q_no h3 {
+  /* border: var(--border2); */
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(72, 118, 204);
+  color: white;
+  font-size: clamp(17px, 5.5vw, 24px);
+  letter-spacing: 1px;
+  font-family: var(--h);
+  position: relative;
+}
+main.questionmobile section.questions {
+  /* border: var(--border); */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 5%;
+  row-gap: 12%;
+}
+main.questionmobile section.questions img {
+  width: clamp(240px, 80%, 300px);
+  height: clamp(160px, 50%, 280px);
+  align-self: center;
+  /* border: var(--border2); */
+}
+main.questionmobile section.questions div.text {
+  display: flex;
+  /* border: var(--border3); */
+  flex-direction: column;
+  row-gap: 12px;
+  position: relative;
+}
+main.questionmobile section.questions div.text button {
+  border: 3px solid rgb(127, 141, 199);
+  background-color: transparent;
+  width: clamp(65px, 25%, 75px);
+  height: clamp(32px, 4.5vh, 38px);
+  border-radius: 5px;
+}
+main.questionmobile section.questions div.text button h4 {
+  color: white;
+  font-family: var(--h);
+  font-size: clamp(14px, 4.5vw, 17.5px);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+main.questionmobile section.questions div.text h4 {
+  color: rgba(255, 255, 255, 0.699);
+  font-weight: 200;
+  font-family: var(--h);
+  font-size: clamp(16px, 4.8vw, 19px);
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+main.questionmobile section.questions div.text h2 {
+  color: white;
+  font-family: var(--h);
+  font-size: clamp(18px, 6.2vw, 26px);
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+main.questionmobile section.btns {
+  /* border: var(--border); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10%;
+  padding: 2% 0;
+}
+main.questionmobile section.btns button {
+  width: clamp(100px, 80%, 321px);
+  height: clamp(60px, 40%, 70px);
+  border-radius: 20px;
+  border: none;
+  font-size: clamp(20px, 5.8vw, 25px);
+  color: rgb(72, 118, 204);
+  font-family: var(--h);
+  font-weight: 600;
+  outline: none;
+  transition: all ease-in-out;
+}
+.acorrect {
+  background-color: rgba(10, 204, 75, 0.678);
+}
